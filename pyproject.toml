@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "libtpu"
+version = "0.1.0"
+description = "A reference libtpu.so implementation for Python and JAX"
+authors = ["Shawn Presser"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
