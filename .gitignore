@@ -2,8 +2,8 @@ __pycache__
 /.idea
 /venv/
 *.egg-info
-/build/
 /dist/
+/build/
 .env
 # setup.py # actually, commit the stub setup.py file so that users can pip3 install -e .
 .hypothesis/

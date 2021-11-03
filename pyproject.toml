@@ -5,6 +5,7 @@ description = "A reference libtpu.so implementation for Python and JAX"
 authors = ["Shawn Presser"]
 license = "MIT"
 readme = "README.md"
+build = "build.py"
 
 [tool.poetry.dependencies]
 python = "^3.6"
